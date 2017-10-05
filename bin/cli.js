@@ -16,7 +16,7 @@ let argv = yargs
 .env()
 .config()
 .global(['config'])
-.commandDir(path.join(__dirname, './commands'))
+.commandDir(path.join(__dirname, '../commands'))
 .demand(1, 'must provide a valid command')
 .help('h')
 .alias('h', 'help')
