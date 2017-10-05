@@ -6,9 +6,6 @@
     "beamish": "./bin/cli.js"
   },
   "dependencies": {
-    "highland": "^2.11.1",
-    "serialize-javascript": "^1.4.0",
-
     "dotenv": "^4.0.0",
     "yargs": "github:markbirbeck/yargs#temp-for-updated-yargs-parser"
   },
