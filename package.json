@@ -1,6 +1,6 @@
 {
   "name": "sifttt-cli",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Command-line runner for sifttt.",
   "bin": {
     "beamish": "./bin/cli.js"
