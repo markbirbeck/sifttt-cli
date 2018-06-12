@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict';
-const main = () => {
+const main = async () => {
   const path = require('path');
   require('dotenv').config((process.env.DOT_ENV_FILE) ? {path: process.env.DOT_ENV_FILE} : undefined);
 
@@ -102,7 +102,7 @@ const main = () => {
 
     pipelineTransform = pipelineTransform
     .apply(new ct.ParseJSON())
-    .apply(new ct[command](Module(argv)));
+    .apply(new ct[command](await Module(argv)));
   }
 
   /**
