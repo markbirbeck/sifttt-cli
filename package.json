@@ -1,9 +1,12 @@
 {
   "name": "sifttt-cli",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Command-line runner for sifttt.",
   "bin": {
     "beamish": "./bin/cli.js"
+  },
+  "engines": {
+    "node" : ">=7.10.1" }
   },
   "dependencies": {
     "dotenv": "^4.0.0",
